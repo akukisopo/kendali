@@ -68,7 +68,7 @@ Kendali adalah Alat Administrasi Jarak Jauh khusus target Windows dan dikendalik
 -	Instal `pyHook` 64-bit atau 32-bit tergantung pada sistem Anda.
 -	Untuk 64-bit- `pip install pyHook-1.5.1-cp27-cp27m-win_amd64.whl`.
 -	Untuk 32-bit- `pip install pyHook-1.5.1-cp27-cp27m-win32.whl`.
--	Jalankan script: `python RATAttack.py`.
+-	Jalankan script: `python KENDALI.py`.
 -	Buka bot Anda di telegram dan kirim beberapa perintah ke bot untuk mengujinya.
 -	Untuk membatasi bot sehingga hanya merespons Anda, catat `chat_id` dari konsol Anda dan ganti dalam skrip dan komentari pada baris `return True`. Jangan khawatir, Anda akan tahu kapan Anda membaca komentar di skrip.
 <img src="http://i.imgur.com/XKARtrp.png">
@@ -121,7 +121,7 @@ Anda dapat menyalin di atas untuk memperbarui daftar perintah Anda melalui `BotF
 ####	Antara:
 Ganti path Anda di `compile.bat` dan `Run.bat` (menjalankan ini benar-benar akan menjalankan eksekusi)
 ####	Atau:
--	Jalankan `pyinstaller --onefile --noconsole C:\path\to\RATAttack.py`. 
+-	Jalankan `pyinstaller --onefile --noconsole C:\path\to\KENDALI.py`. 
 -	Anda juga bisa menambahkan `--icon=<path\to\icon.ico>` untuk menggunakan ikon kustom apa pun.
 
 	-	Setelah berhasil dikompilasi, cari file .exe di dalam `C:\Python27\Scripts\dist\`.
@@ -130,8 +130,8 @@ Ganti path Anda di `compile.bat` dan `Run.bat` (menjalankan ini benar-benar akan
 	-	Anda dapat kembali ke normal dengan menggunakan `/self_destructopsi` atau secara manual menghapus direktori `C:\Users\Username\AppData\Roaming\Portal` dan `C:\Users\Username\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\portal.lnk` (meskipun saya merekomendasikan untuk menghapusnya secara manual untuk sementara waktu).
 
 ###	Memodifikasi Pengaturan:
--	Anda juga dapat memodifikasi nama .exefile tersembunyi dan lokasi & nama folder tempat tersembunyi .exeakan menyembunyikan dirinya. Untuk melakukan ini; memodifikasi compiled_namedan hide_foldermasing - masing.
--	Tetapkan id obrolan Anda yang dikenal ke awal RATAttack.py
+-	Anda juga dapat memodifikasi nama file exe tersembunyi dan lokasi & nama folder tempat tersembunyi .exe akan menyembunyikan dirinya. Untuk melakukan ini; memodifikasi `compiled_name` dan `hide_folder` masing - masing.
+-	Tetapkan `Chat ID` Anda yang dikenal ke awal `KENDALI.py`
 
 ##	Catatan:
 Saat ini hanya Python2 yang didukung. Dukungan Python3 akan ditambahkan segera!
