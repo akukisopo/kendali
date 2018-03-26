@@ -1,0 +1,10 @@
+telepot
+requests
+image
+winshell
+tendo
+pypiwin32
+pillow
+pyinstaller
+pyaudio
+psutil
