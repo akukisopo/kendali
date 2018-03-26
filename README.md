@@ -114,18 +114,18 @@ Saat menggunakan perintah di bawah ini; gunakan (Slash) "/" sebagai awalan. Seba
 /update 		- perbarui dieksekusi
 /wallpaper 		- ubah wallpaper
 ```
-Anda dapat menyalin di atas untuk memperbarui daftar perintah Anda melalui BotFather sehingga Anda tidak perlu mengetiknya secara manual.
+Anda dapat menyalin di atas untuk memperbarui daftar perintah Anda melalui `BotFather` sehingga Anda tidak perlu mengetiknya secara manual.
 
 ##	Kompilasi:
 ###	Cara Mengompilasi:
 ####	Antara:
-Ganti path Anda di 'compile.bat' dan 'Run.bat' (menjalankan ini benar-benar akan menjalankan eksekusi)
+Ganti path Anda di `compile.bat` dan `Run.bat` (menjalankan ini benar-benar akan menjalankan eksekusi)
 ####	Atau:
 -	Jalankan `pyinstaller --onefile --noconsole C:\path\to\RATAttack.py`. 
 -	Anda juga bisa menambahkan `--icon=<path\to\icon.ico>` untuk menggunakan ikon kustom apa pun.
 
-####	Setelah berhasil dikompilasi, cari .exefile di dalamnya C:\Python27\Scripts\dist\. Anda dapat mengubah nama dari .exe apa pun yang Anda inginkan.
-####	AWAS! Jika Anda menjalankan compiled .exe, script akan menyembunyikan dirinya dan menginfeksi PC Anda untuk dijalankan saat startup. Anda dapat kembali ke normal dengan menggunakan /self_destructopsi atau secara manual menghapus C:\Users\Username\AppData\Roaming\Portaldirektori dan C:\Users\Username\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\portal.lnk(meskipun saya merekomendasikan untuk menghapusnya secara manual untuk sementara waktu).
+Setelah berhasil dikompilasi, cari .exefile di dalamnya C:\Python27\Scripts\dist\. Anda dapat mengubah nama dari .exe apa pun yang Anda inginkan.
+AWAS! Jika Anda menjalankan compiled .exe, script akan menyembunyikan dirinya dan menginfeksi PC Anda untuk dijalankan saat startup. Anda dapat kembali ke normal dengan menggunakan /self_destructopsi atau secara manual menghapus C:\Users\Username\AppData\Roaming\Portaldirektori dan C:\Users\Username\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\portal.lnk(meskipun saya merekomendasikan untuk menghapusnya secara manual untuk sementara waktu).
 
 ###	Memodifikasi Pengaturan:
 -	Anda juga dapat memodifikasi nama .exefile tersembunyi dan lokasi & nama folder tempat tersembunyi .exeakan menyembunyikan dirinya. Untuk melakukan ini; memodifikasi compiled_namedan hide_foldermasing - masing.
