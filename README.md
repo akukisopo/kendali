@@ -1,16 +1,20 @@
-RAT-via-Telegram
-Alat Administrasi Jarak Jauh Windows melalui Telegram (Python 2.7) | Awalnya dibuat oleh Ritiek
+#	Kendali-via-Telegram
 
-Kenapa yang lain?
-Alat Administrasi Jarak Jauh saat ini di pasar menghadapi 2 masalah utama:
+Alat Administrasi Jarak Jauh khusus target Windows dan dikendalikan melalui Telegram (Python 2.7) untuk Python 3+ belum
 
-Kurangnya enkripsi.
-Memerlukan penerusan port untuk mengontrol dari ratusan mil.
-Tikus ini mengatasi kedua masalah ini dengan menggunakan API bot Telegram.
+###	Kenapa yang lain?
 
-Sepenuhnya dienkripsi. Data yang dipertukarkan tidak dapat dimata-matai menggunakan alat MITM.
-Aplikasi messenger Telegram menyediakan cara sederhana untuk berkomunikasi dengan target tanpa mengkonfigurasi port maju sebelum tangan pada target.
-Fitur:
+-	Alat Administrasi Jarak Jauh saat ini di pasar menghadapi 2 masalah utama:
+
+	-	Kurangnya enkripsi.
+	-	Memerlukan penerusan port untuk mengontrol dari ratusan mil.
+
+-	Kendali ini mengatasi kedua masalah ini dengan menggunakan API bot Telegram.
+
+	-	Sepenuhnya dienkripsi. Data yang dipertukarkan tidak dapat dimata-matai menggunakan alat MITM.
+	-	Aplikasi messenger Telegram menyediakan cara sederhana untuk berkomunikasi dengan target tanpa mengkonfigurasi port maju sebelum tangan pada target.
+
+##	Fitur:
 Keylogger dengan log judul jendela disertakan
 Dapatkan versi Windows PC target, prosesor dan banyak lagi
 Dapatkan informasi alamat IP PC target dan perkiraan lokasi di peta
@@ -30,7 +34,7 @@ Jadwalkan tugas untuk dijalankan pada waktu yang ditentukan
 Encode / Decode semua file lokal
 Target Ping
 Perbarui .exe - terima kasih LearnerZone
-Tikus Tikus Kehancuran Diri
+Kendali Kendali Kehancuran Diri
 Ubah wallpaper dari file atau url
 Jalankan python sewenang-wenang 2.7 di mana saja
 Jalankan cangkang cmd
