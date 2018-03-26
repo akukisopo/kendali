@@ -1,4 +1,4 @@
-#	Kendali-via-Telegram
+#	Kendali
 
 Kendali adalah Alat Administrasi Jarak Jauh khusus target Windows dan dikendalikan melalui Telegram (Python 2.7) untuk Python 3+ belum
 
@@ -73,7 +73,7 @@ Kendali adalah Alat Administrasi Jarak Jauh khusus target Windows dan dikendalik
 -	Untuk membatasi bot sehingga hanya merespons Anda, catat `chat_id` dari konsol Anda dan ganti dalam skrip dan komentari pada baris `return True`. Jangan khawatir, Anda akan tahu kapan Anda membaca komentar di skrip.
 <img src="http://i.imgur.com/XKARtrp.png">
 
-- Folder bernama `RATAttack` akan dibuat di direktori kerja Anda yang berisi `keylogs.txt` dan file apa pun yang Anda upload ke bot.
+- Folder bernama `KENDALI` akan dibuat di direktori kerja Anda yang berisi `keylogs.txt` dan file apa pun yang Anda upload ke bot.
 
 ###	Perintah:
 Saat menggunakan perintah di bawah ini; gunakan (Slash) "/" sebagai awalan. Sebagai contoh: /pc_info.

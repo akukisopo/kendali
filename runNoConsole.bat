@@ -1,1 +1,1 @@
-C:/Python27/pythonw.exe "C:\Kendali\KENDALI-via-Telegram\KENDALI.py"
+C:/Python27/pythonw.exe "C:\Kendali\KENDALI.py"
