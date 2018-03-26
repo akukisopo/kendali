@@ -121,7 +121,7 @@ Anda dapat langsung menyalin perintah di atas dan salin ke kolom telegram untuk 
 ####	Antara:
 Ganti path Anda di `compile.bat` dan `Run.bat` (menjalankan ini benar-benar akan menjalankan eksekusi)
 ####	Atau:
--	Jalankan `pyinstaller --onefile --noconsole C:\path\to\KENDALI.py`. 
+-	Jalankan `pyinstaller --onefile --noconsole D:\Kendali\KENDALI.py`. 
 -	Anda juga bisa menambahkan `--icon=<path\to\icon.ico>` untuk menggunakan ikon kustom apa pun.
 
 	-	Setelah berhasil dikompilasi, cari file .exe di dalam `C:\Python27\Scripts\dist\`.
