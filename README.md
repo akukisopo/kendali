@@ -70,18 +70,19 @@ Kendali adalah Alat Administrasi Jarak Jauh khusus target Windows dan dikendalik
 -	Untuk 32-bit- `pip install pyHook-1.5.1-cp27-cp27m-win32.whl`.
 -	Jalankan script: `python RATAttack.py`.
 -	Buka bot Anda di telegram dan kirim beberapa perintah ke bot untuk mengujinya.
--	Untuk membatasi bot sehingga hanya merespons Anda, catat `chat_id dari konsol Anda dan ganti dalam skrip dan komentari pada baris `return True`. Jangan khawatir, Anda akan tahu kapan Anda membaca komentar di skrip.
+-	Untuk membatasi bot sehingga hanya merespons Anda, catat `chat_id` dari konsol Anda dan ganti dalam skrip dan komentari pada baris `return True`. Jangan khawatir, Anda akan tahu kapan Anda membaca komentar di skrip.
 <img src="http://i.imgur.com/XKARtrp.png">
+
 - Folder bernama `RATAttack` akan dibuat di direktori kerja Anda yang berisi `keylogs.txt` dan file apa pun yang Anda upload ke bot.
 
 ###	Perintah:
 Saat menggunakan perintah di bawah ini; gunakan (Slash) "/" sebagai awalan. Sebagai contoh: /pc_info.
 
 ```
-/arp - menampilkan tabel arp
-/capture_pc - tangkapan layar PC
-/cmd_exec - jalankan perintah shell
-/cp - menyalin file
+/arp 				- menampilkan tabel arp
+/capture_pc 		- tangkapan layar PC
+/cmd_exec 			- jalankan perintah shell
+/cp 				- menyalin file
 /cd - ubah direktori saat ini
 /delete - hapus file / folder
 /download - unduh file dari target
