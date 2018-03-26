@@ -114,12 +114,12 @@ Saat menggunakan perintah di bawah ini; gunakan (Slash) "/" sebagai awalan. Seba
 /update 		- perbarui dieksekusi
 /wallpaper 		- ubah wallpaper
 ```
-Anda dapat menyalin di atas untuk memperbarui daftar perintah Anda melalui BotFathersehingga Anda tidak perlu mengetiknya secara manual.
+Anda dapat menyalin di atas untuk memperbarui daftar perintah Anda melalui BotFather sehingga Anda tidak perlu mengetiknya secara manual.
 
 ##	Kompilasi:
 ###	Cara Mengompilasi:
 ####	Antara:
-Ganti path Anda di compileAndRun.bat (menjalankan ini benar-benar akan menjalankan eksekusi)
+Ganti path Anda di 'compile.bat' dan 'Run.bat' (menjalankan ini benar-benar akan menjalankan eksekusi)
 ####	Atau:
 -	Jalankan `pyinstaller --onefile --noconsole C:\path\to\RATAttack.py`. 
 -	Anda juga bisa menambahkan `--icon=<path\to\icon.ico>` untuk menggunakan ikon kustom apa pun.
