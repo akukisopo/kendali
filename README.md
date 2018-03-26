@@ -79,40 +79,40 @@ Kendali adalah Alat Administrasi Jarak Jauh khusus target Windows dan dikendalik
 Saat menggunakan perintah di bawah ini; gunakan (Slash) "/" sebagai awalan. Sebagai contoh: /pc_info.
 
 ```
-/arp 				- menampilkan tabel arp
+/arp 			- menampilkan tabel arp
 /capture_pc 		- tangkapan layar PC
-/cmd_exec 			- jalankan perintah shell
-/cp 				- menyalin file
-/cd - ubah direktori saat ini
-/delete - hapus file / folder
-/download - unduh file dari target
-/decode_all - decode SEMUA file lokal yang dikodekan
-/dns - menampilkan Cache DNS
-/encode_all - menyandikan SEMUA file lokal
-/freeze_keyboard - aktifkan pembekuan keyboard
-/unfreeze_keyboard - menonaktifkan pembekuan keyboard
-/get_chrome - Dapatkan login / kata sandi Google Chrome
-/listen - rekam mikrofon
-/ip_info - via ipinfo.io
-/keylogs - dapatkan keylogs
-/ls - daftar isi direktori saat ini atau yang ditentukan
-/msg_box - menampilkan kotak pesan dengan teks
-/mv - memindahkan file
-/pc_info - Informasi PC
-/ping - pastikan target sudah habis
-/play - memainkan video youtube
-/proxy - membuka server proxy
-/pwd - tampilkan direktori saat ini
-/python_exec - menafsirkan python
-/reboot - reboot komputer
-/run - jalankan file
-/schedule - jadwalkan perintah untuk dijalankan pada waktu tertentu
-/self_destruct - hancurkan semua jejak
-/shutdown - komputer shutdown
-/task list - menampilkan layanan dan proses yang sedang berjalan
-/to - pilih target dengan nama itu
-/update - perbarui dieksekusi
-/wallpaper - ubah wallpaper
+/cmd_exec 		- jalankan perintah shell
+/cp 			- menyalin file
+/cd 			- ubah direktori saat ini
+/delete 		- hapus file / folder
+/download 		- unduh file dari target
+/decode_all 		- decode SEMUA file lokal yang dikodekan
+/dns 			- menampilkan Cache DNS
+/encode_all 		- menyandikan SEMUA file lokal
+/freeze_keyboard 	- aktifkan pembekuan keyboard
+/unfreeze_keyboard 	- menonaktifkan pembekuan keyboard
+/get_chrome 		- Dapatkan login / kata sandi Google Chrome
+/listen 		- rekam mikrofon
+/ip_info 		- via ipinfo.io
+/keylogs 		- dapatkan keylogs
+/ls 			- daftar isi direktori saat ini atau yang ditentukan
+/msg_box 		- menampilkan kotak pesan dengan teks
+/mv 			- memindahkan file
+/pc_info 		- Informasi PC
+/ping 			- pastikan target sudah habis
+/play 			- memainkan video youtube
+/proxy 			- membuka server proxy
+/pwd 			- tampilkan direktori saat ini
+/python_exec 		- menafsirkan python
+/reboot 		- reboot komputer
+/run 			- jalankan file
+/schedule 		- jadwalkan perintah untuk dijalankan pada waktu tertentu
+/self_destruct 		- hancurkan semua jejak
+/shutdown 		- komputer shutdown
+/task list 		- menampilkan layanan dan proses yang sedang berjalan
+/to 			- pilih target dengan nama itu
+/update 		- perbarui dieksekusi
+/wallpaper 		- ubah wallpaper
 ```
 Anda dapat menyalin di atas untuk memperbarui daftar perintah Anda melalui BotFathersehingga Anda tidak perlu mengetiknya secara manual.
 
