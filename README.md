@@ -61,7 +61,7 @@ Alat Administrasi Jarak Jauh khusus target Windows dan dikendalikan melalui Tele
 
 ##	Instalasi & Penggunaan:
 -	Klon repositori ini.
--	Mengatur bot Telegram baru yang berbicara dengan BotFather.
+-	Mengatur bot Telegram baru yang berbicara dengan 'BotFather'.
 -	Salin token ini dan gantilah di awal skrip.
 -	Menginstal dependensi: pip install -r requirements.txt.
 -	Instal pyHook 64-bitatau 32-bittergantung pada sistem Anda.
@@ -77,40 +77,40 @@ Alat Administrasi Jarak Jauh khusus target Windows dan dikendalikan melalui Tele
 Saat menggunakan perintah di bawah ini; gunakan (Slash) "/" sebagai awalan. Sebagai contoh: /pc_info.
 
 ```
-	-	arp - display arp table
-	-	capture_pc - screenshot PC
-	-	cmd_exec - execute shell command
-	-	cp - copy files
-	-	cd - change current directory
-	-	delete - delete a file/folder
-	-	download - download file from target
-	-	decode_all - decode ALL encoded local files
-	-	dns - display DNS Cache
-	-	encode_all - encode ALL local files
-	-	freeze_keyboard - enable keyboard freeze
-	-	unfreeze_keyboard - disable keyboard freeze
-	-	get_chrome - Get Google Chrome's login/passwords
-	-	hear - record microphone
-	-	ip_info - via ipinfo.io
-	-	keylogs - get keylogs
-	-	ls - list contents of current or specified directory
-	-	msg_box - display message box with text
-	-	mv - move files
-	-	pc_info - PC information
-	-	ping - makes sure target is up
-	-	play - plays a youtube video
-	-	proxy - opens a proxy server
-	-	pwd - show current directory
-	-	python_exec - interpret python
-	-	reboot - reboot computer
-	-	run - run a file
-	-	schedule - schedule a command to run at specific time
-	-	self_destruct - destroy all traces
-	-	shutdown - shutdown computer
-	-	tasklist - display services and processes running
-	-	to - select targets by it's name
-	-	update - update executable
-	-	wallpaper - change wallpaper
+/arp - display arp table
+/capture_pc - screenshot PC
+/cmd_exec - execute shell command
+/cp - copy files
+/cd - change current directory
+/delete - delete a file/folder
+/download - download file from target
+/decode_all - decode ALL encoded local files
+/dns - display DNS Cache
+/encode_all - encode ALL local files
+/freeze_keyboard - enable keyboard freeze
+/unfreeze_keyboard - disable keyboard freeze
+/get_chrome - Get Google Chrome's login/passwords
+/hear - record microphone
+/ip_info - via ipinfo.io
+/keylogs - get keylogs
+/ls - list contents of current or specified directory
+/msg_box - display message box with text
+/mv - move files
+/pc_info - PC information
+/ping - makes sure target is up
+/play - plays a youtube video
+/proxy - opens a proxy server
+/pwd - show current directory
+/python_exec - interpret python
+/reboot - reboot computer
+/run - run a file
+/schedule - schedule a command to run at specific time
+/self_destruct - destroy all traces
+/shutdown - shutdown computer
+/tasklist - display services and processes running
+/to - select targets by it's name
+/update - update executable
+/wallpaper - change wallpaper
 ```
 	Anda dapat menyalin di atas untuk memperbarui daftar perintah Anda melalui BotFathersehingga Anda tidak perlu mengetiknya secara manual.
 
