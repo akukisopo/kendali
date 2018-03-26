@@ -43,15 +43,15 @@ Alat Administrasi Jarak Jauh khusus target Windows dan dikendalikan melalui Tele
 -	Dapatkan proses dan layanan aktif
 -	Komputer Shutdown / Reboot
 -	Tampilkan Cache DNS
-[SEDANG BERLANGSUNG] Browser (IE, Firefox, Chrome) pengambilan cookie
-[SEDANG BERLANGSUNG] Pengambilan kata sandi
-[SEDANG BERLANGSUNG] Pantau lalu lintas web (secara grafis?)
-[SEDANG BERLANGSUNG] Skrip fine-tuning (yaitu: jika aplikasi x dibuka y dieksekusi)
-[SEDANG BERLANGSUNG] Bekukan mouse target
-[SEDANG BERLANGSUNG] Tangkap papan klip (Teks, Gambar)
-[SEDANG BERLANGSUNG] Sembunyikan ikon desktop
-[SEDANG BERLANGSUNG] Ambil foto dari webcam (jika terpasang)
-[SEDANG BERLANGSUNG] Kompresi audio
+-	[SEDANG BERLANGSUNG] Browser (IE, Firefox, Chrome) pengambilan cookie
+-	[SEDANG BERLANGSUNG] Pengambilan kata sandi
+-	[SEDANG BERLANGSUNG] Pantau lalu lintas web (secara grafis?)
+-	[SEDANG BERLANGSUNG] Skrip fine-tuning (yaitu: jika aplikasi x dibuka y dieksekusi)
+-	[SEDANG BERLANGSUNG] Bekukan mouse target
+-	[SEDANG BERLANGSUNG] Tangkap papan klip (Teks, Gambar)
+-	[SEDANG BERLANGSUNG] Sembunyikan ikon desktop
+-	[SEDANG BERLANGSUNG] Ambil foto dari webcam (jika terpasang)
+-	[SEDANG BERLANGSUNG] Kompresi audio
 
 & Selebihnya datang segera!
 
@@ -121,8 +121,9 @@ Ganti path Anda di compileAndRun.bat (menjalankan ini benar-benar akan menjalank
 ####	Atau:
 -	Jalankan `pyinstaller --onefile --noconsole C:\path\to\RATAttack.py`. 
 -	Anda juga bisa menambahkan `--icon=<path\to\icon.ico>` untuk menggunakan ikon kustom apa pun.
--	Setelah berhasil dikompilasi, cari .exefile di dalamnya C:\Python27\Scripts\dist\. Anda dapat mengubah nama dari .exe apa pun yang Anda inginkan.
--	AWAS! Jika Anda menjalankan compiled .exe, script akan menyembunyikan dirinya dan menginfeksi PC Anda untuk dijalankan saat startup. Anda dapat kembali ke normal dengan menggunakan /self_destructopsi atau secara manual menghapus C:\Users\Username\AppData\Roaming\Portaldirektori dan C:\Users\Username\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\portal.lnk(meskipun saya merekomendasikan untuk menghapusnya secara manual untuk sementara waktu).
+
+####	Setelah berhasil dikompilasi, cari .exefile di dalamnya C:\Python27\Scripts\dist\. Anda dapat mengubah nama dari .exe apa pun yang Anda inginkan.
+####	AWAS! Jika Anda menjalankan compiled .exe, script akan menyembunyikan dirinya dan menginfeksi PC Anda untuk dijalankan saat startup. Anda dapat kembali ke normal dengan menggunakan /self_destructopsi atau secara manual menghapus C:\Users\Username\AppData\Roaming\Portaldirektori dan C:\Users\Username\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\portal.lnk(meskipun saya merekomendasikan untuk menghapusnya secara manual untuk sementara waktu).
 
 ###	Memodifikasi Pengaturan:
 -	Anda juga dapat memodifikasi nama .exefile tersembunyi dan lokasi & nama folder tempat tersembunyi .exeakan menyembunyikan dirinya. Untuk melakukan ini; memodifikasi compiled_namedan hide_foldermasing - masing.
