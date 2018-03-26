@@ -114,7 +114,7 @@ Saat menggunakan perintah di bawah ini; gunakan (Slash) "/" sebagai awalan. Seba
 /update 		- perbarui dieksekusi
 /wallpaper 		- ubah wallpaper
 ```
-Anda dapat menyalin di atas untuk memperbarui daftar perintah Anda melalui `BotFather` sehingga Anda tidak perlu mengetiknya secara manual.
+Anda dapat langsung menyalin perintah di atas dan salin ke kolom telegram untuk memperbarui daftar perintah melalui `BotFather` sehingga Anda tidak perlu mengetiknya secara manual.
 
 ##	Kompilasi:
 ###	Cara Mengompilasi:
