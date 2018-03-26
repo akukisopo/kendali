@@ -60,20 +60,20 @@ Alat Administrasi Jarak Jauh khusus target Windows dan dikendalikan melalui Tele
 <img src="http://i.imgur.com/I5nzrbz.jpg"/>
 
 ##	Instalasi & Penggunaan:
-	-	Klon repositori ini.
-	-	Mengatur bot Telegram baru yang berbicara dengan BotFather.
-	-	Salin token ini dan gantilah di awal skrip.
-	-	Menginstal dependensi: pip install -r requirements.txt.
-	-	Instal pyHook 64-bitatau 32-bittergantung pada sistem Anda.
-	-	Untuk 64-bit- pip install pyHook-1.5.1-cp27-cp27m-win_amd64.whl.
-	-	Untuk 32-bit- pip install pyHook-1.5.1-cp27-cp27m-win32.whl.
-	-	Untuk menjalankan script: python RATAttack.py.
-	-	Temukan bot Anda di telegram dan kirim beberapa perintah ke bot untuk mengujinya.
-	-	Untuk membatasi bot sehingga hanya merespons Anda, catat chat_iddari konsol Anda dan ganti dalam skrip dan komentari garis return True. Jangan khawatir, Anda akan tahu kapan Anda membaca komentar di skrip.
-	<img src="http://i.imgur.com/XKARtrp.png">
-	- Folder bernama `RATAttack` akan dibuat di direktori kerja Anda yang berisi` keylogs.txt` dan file apa pun yang Anda unggah ke bot.
+-	Klon repositori ini.
+-	Mengatur bot Telegram baru yang berbicara dengan BotFather.
+-	Salin token ini dan gantilah di awal skrip.
+-	Menginstal dependensi: pip install -r requirements.txt.
+-	Instal pyHook 64-bitatau 32-bittergantung pada sistem Anda.
+-	Untuk 64-bit- pip install pyHook-1.5.1-cp27-cp27m-win_amd64.whl.
+-	Untuk 32-bit- pip install pyHook-1.5.1-cp27-cp27m-win32.whl.
+-	Untuk menjalankan script: python RATAttack.py.
+-	Temukan bot Anda di telegram dan kirim beberapa perintah ke bot untuk mengujinya.
+-	Untuk membatasi bot sehingga hanya merespons Anda, catat chat_iddari konsol Anda dan ganti dalam skrip dan komentari garis return True. Jangan khawatir, Anda akan tahu kapan Anda membaca komentar di skrip.
+<img src="http://i.imgur.com/XKARtrp.png">
+- Folder bernama `RATAttack` akan dibuat di direktori kerja Anda yang berisi` keylogs.txt` dan file apa pun yang Anda unggah ke bot.
 
-##	Perintah:
+###	Perintah:
 Saat menggunakan perintah di bawah ini; gunakan (Slash) "/" sebagai awalan. Sebagai contoh: /pc_info.
 
 ```
