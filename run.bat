@@ -1,1 +1,1 @@
-C:/Python27/python.exe KENDALI.py
+C:/Python27/python.exe %~dp0\KENDALI.py
