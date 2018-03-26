@@ -112,20 +112,20 @@ Saat menggunakan perintah di bawah ini; gunakan (Slash) "/" sebagai awalan. Seba
 /update - update executable
 /wallpaper - change wallpaper
 ```
-	Anda dapat menyalin di atas untuk memperbarui daftar perintah Anda melalui BotFathersehingga Anda tidak perlu mengetiknya secara manual.
+Anda dapat menyalin di atas untuk memperbarui daftar perintah Anda melalui BotFathersehingga Anda tidak perlu mengetiknya secara manual.
 
 ##	Kompilasi:
-	###	Cara Mengompilasi:
-	####	Antara:
-			Replace your path in compileAndRun.bat (running this will actually run the executable)
-	####	Atau:
-			Run `pyinstaller --onefile --noconsole C:\path\to\RATAttack.py`. You can also pass `--icon=<path\to\icon.ico>` to use any custom icon.
-			-	Setelah berhasil dikompilasi, cari .exefile di dalamnya C:\Python27\Scripts\dist\. Anda dapat mengubah nama dari .exeapa pun yang Anda inginkan.
-			AWAS! Jika Anda menjalankan compiled .exe, script akan menyembunyikan dirinya dan menginfeksi PC Anda untuk dijalankan saat startup. Anda dapat kembali ke normal dengan menggunakan /self_destructopsi atau secara manual menghapus C:\Users\Username\AppData\Roaming\Portaldirektori dan C:\Users\Username\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\portal.lnk(meskipun saya merekomendasikan untuk menghapusnya secara manual untuk sementara waktu).
+###	Cara Mengompilasi:
+####	Antara:
+		Replace your path in compileAndRun.bat (running this will actually run the executable)
+####	Atau:
+		Run `pyinstaller --onefile --noconsole C:\path\to\RATAttack.py`. You can also pass `--icon=<path\to\icon.ico>` to use any custom icon.
+		-	Setelah berhasil dikompilasi, cari .exefile di dalamnya C:\Python27\Scripts\dist\. Anda dapat mengubah nama dari .exeapa pun yang Anda inginkan.
+		AWAS! Jika Anda menjalankan compiled .exe, script akan menyembunyikan dirinya dan menginfeksi PC Anda untuk dijalankan saat startup. Anda dapat kembali ke normal dengan menggunakan /self_destructopsi atau secara manual menghapus C:\Users\Username\AppData\Roaming\Portaldirektori dan C:\Users\Username\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\portal.lnk(meskipun saya merekomendasikan untuk menghapusnya secara manual untuk sementara waktu).
 
-	###	Memodifikasi Pengaturan:
-		-	Anda juga dapat memodifikasi nama .exefile tersembunyi dan lokasi & nama folder tempat tersembunyi .exeakan menyembunyikan dirinya. Untuk melakukan ini; memodifikasi compiled_namedan hide_foldermasing - masing.
-		-	Tetapkan id obrolan Anda yang dikenal ke awal RATAttack.py
+###	Memodifikasi Pengaturan:
+	-	Anda juga dapat memodifikasi nama .exefile tersembunyi dan lokasi & nama folder tempat tersembunyi .exeakan menyembunyikan dirinya. Untuk melakukan ini; memodifikasi compiled_namedan hide_foldermasing - masing.
+	-	Tetapkan id obrolan Anda yang dikenal ke awal RATAttack.py
 
 ##	Catatan:
 	Saat ini hanya Python2 yang didukung. Dukungan Python3 akan ditambahkan segera!
